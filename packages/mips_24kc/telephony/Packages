@@ -1,0 +1,15 @@
+Package: asterisk
+Version: 18.11.2-4
+Depends: libc, libstdcpp6, jansson4, libcap, libedit, libopenssl1.1, libsqlite3-0, libuuid1, libxml2, zlib
+License: GPL-2.0
+Section: net
+Architecture: mips_24kc
+Installed-Size: 933480
+Filename: asterisk_18.11.2-4_mips_24kc.ipk
+Size: 932736
+SHA256sum: b8a70aef5501150b8c48f62f1542aaf0174c02eb2a0a242e0b4dc0256bc14c0f
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.
+

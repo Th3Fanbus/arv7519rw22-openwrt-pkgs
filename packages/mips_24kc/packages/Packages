@@ -1,0 +1,147 @@
+Package: cgi-io
+Version: 2022-08-10-901b0f04-21
+Depends: libc, libubox20220515, libubus20220601
+License: GPL-2.0-or-later
+Section: net
+Architecture: mips_24kc
+Installed-Size: 7514
+Filename: cgi-io_2022-08-10-901b0f04-21_mips_24kc.ipk
+Size: 8337
+SHA256sum: 83f5f0fd063e5605853898172257e20843ff2d1f3a7709d9f86d58c869d92af1
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: libedit
+Version: 20210522-3.1-1
+Depends: libc, libncurses6
+License: BSD-3-Clause
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 62683
+Filename: libedit_20210522-3.1-1_mips_24kc.ipk
+Size: 63123
+SHA256sum: 09de917b25fbda950abd9332401d08b3fa932dc8308561a245e865cc5abccf24
+Description:  Generic line editing, history, and tokenization functions similar to GNU Readline.
+
+Package: libevdev
+Version: 1.13.0-1
+Depends: libc
+License: MIT
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 26379
+Filename: libevdev_1.13.0-1_mips_24kc.ipk
+Size: 25039
+SHA256sum: 0211fc586c5c4b3e979bfd0f9d85400ababfbfa419ce1b0d949ce65c9c05d597
+Description:  libevdev is a wrapper library for evdev devices. it moves the common
+ tasks when dealing with evdev devices into a library and provides a
+ library interface to the callers, thus avoiding erroneous ioctls, etc.
+ 
+ The eventual goal is that libevdev wraps all ioctls available to
+ evdev devices, thus making direct access unnecessary.
+
+Package: libkmod
+Version: 27-2
+Depends: libc, zlib
+License: LGPL-2.1-or-later
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 31230
+Filename: libkmod_27-2_mips_24kc.ipk
+Size: 31941
+SHA256sum: 504f6353b2cdcef367cebc0551516117b03e1048fac524b84df2b58c500bf1d2
+Description:  Linux kernel module handling (library)
+
+Package: libpci
+Version: 3.8.0-2
+Depends: libc
+License: GPL-2.0
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 18311
+Filename: libpci_3.8.0-2_mips_24kc.ipk
+Size: 19101
+SHA256sum: 64db4a828528e2e15484a92f26310ec05cd7baee62f7fecd4eb509c8d52ef6fd
+Description:  Linux PCI Libraries
+
+Package: libsqlite3-0
+Version: 3400000-1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+License: PUBLICDOMAIN
+Section: libs
+ABIVersion: -0
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: mips_24kc
+Installed-Size: 502523
+Filename: libsqlite3-0_3400000-1_mips_24kc.ipk
+Size: 502429
+SHA256sum: ef5cf7dee7625f3634e7d9f2c2969c5fd954ea418ff3f9acf504033b173a541e
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libudev-zero
+Version: 1.0.1-1
+Depends: libc, libevdev
+Conflicts: libudev, eudev, udev
+Provides: libudev
+License: MIT
+Section: libs
+Architecture: mips_24kc
+Installed-Size: 7997
+Filename: libudev-zero_1.0.1-1_mips_24kc.ipk
+Size: 8802
+SHA256sum: e63ebe8e5798220f2005c5e1d0be3a0f11f510437172dc159f47b8e00a99a8bc
+Description:  Drop-in replacement for libudev
+
+Package: libxml2
+Version: 2.10.3-1
+Depends: libc, libpthread, zlib
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Architecture: mips_24kc
+Installed-Size: 429634
+Filename: libxml2_2.10.3-1_mips_24kc.ipk
+Size: 426806
+SHA256sum: fda68e006181de78ad9cb6ffb8307d55ded3cb9c42c79b3cf5626d1842d89b73
+Description:  A library for manipulating XML and HTML resources.
+
+Package: pciids
+Version: 0.359-1
+Depends: libc
+License: GPL-2.0-or-later  XFree86-1.0
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 306371
+Filename: pciids_0.359-1_mips_24kc.ipk
+Size: 306643
+SHA256sum: e53b36cb23403eeceaf74511274825319eda65b57a6d87664ea9b436a05b523e
+Description:  PCI ID list
+
+Package: pciutils
+Version: 3.8.0-2
+Depends: libc, libkmod, libpci, pciids
+License: GPL-2.0
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 45123
+Filename: pciutils_3.8.0-2_mips_24kc.ipk
+Size: 45925
+SHA256sum: 04d42a177ec944e446ed31b7050690106ba441d5b72503ee7aab3d283e66ba52
+Description:  contains collection of programs for inspecting and manipulating configuration
+ of PCI devices
+
+Package: usbutils
+Version: 014-1
+Depends: libc, libusb-1.0-0, libudev, librt, libpthread
+License: GPL-2.0-only
+Section: utils
+Architecture: mips_24kc
+Installed-Size: 52591
+Filename: usbutils_014-1_mips_24kc.ipk
+Size: 53033
+SHA256sum: f0874712ae1a8f954ed2d88bdc58d2cb42ff5c5b21e5016645ec494cc90388c6
+Description:  USB devices listing utilities
+
